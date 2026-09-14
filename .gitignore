@@ -1,0 +1,14 @@
+work/
+.venv/
+__pycache__/
+*.pyc
+*.blend1
+*.blend2
+*.mp3
+*.wav
+*.flac
+*.m4a
+*.ogg
+*.aac
+.env
+.env.*

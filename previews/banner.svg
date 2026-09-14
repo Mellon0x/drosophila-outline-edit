@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="330" viewBox="0 0 1200 330">
+<defs>
+ <linearGradient id="ice" x2="1" y2="1"><stop stop-color="#f4faff"/><stop offset="1" stop-color="#b8daff"/></linearGradient>
+ <linearGradient id="spectrum"><stop stop-color="#9bc7ff"/><stop offset=".35" stop-color="#a6d9d0"/><stop offset=".65" stop-color="#e5c8ef"/><stop offset="1" stop-color="#f1cba4"/></linearGradient>
+ <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#1f3b5b" stroke-opacity=".065"/></pattern>
+</defs>
+<rect width="1200" height="330" rx="22" fill="url(#ice)"/>
+<rect width="1200" height="330" rx="22" fill="url(#grid)"/>
+<path d="M0 300 110 224 165 252 300 172 410 262 500 220 620 330H0" fill="#9bc7ff" opacity=".2"/>
+<path d="M720 330 830 214 892 249 1000 148 1130 230 1200 180V330" fill="#9bc7ff" opacity=".23"/>
+<g fill="#1f3b5b" font-family="Consolas, monospace">
+ <text x="58" y="62" font-size="14" letter-spacing="3">MELLON0X / VISUAL EXPERIMENT 01</text>
+ <text x="54" y="155" font-size="72" font-weight="700" letter-spacing="-3">DROSOPHILA</text>
+ <text x="59" y="198" font-size="18" letter-spacing="2">SMALL BODY. COMPLEX SYSTEM.</text>
+ <text x="59" y="284" font-size="13">BLENDER + PYTHON</text><text x="285" y="284" font-size="13">20 SEC / 30 FPS</text>
+</g>
+<rect x="58" y="226" width="390" height="3" rx="1.5" fill="url(#spectrum)"/>
+<g transform="translate(930 166) rotate(-22)" stroke="#1f3b5b" fill="none" stroke-width="1.6" opacity=".8">
+ <ellipse cy="45" rx="25" ry="56"/><ellipse cy="-21" rx="28" ry="32"/><ellipse cy="-63" rx="24" ry="20"/>
+ <ellipse cx="-19" cy="-66" rx="10" ry="15"/><ellipse cx="19" cy="-66" rx="10" ry="15"/>
+ <path d="M-20-20Q-145 10-103 94Q-65 108-9 0M20-20Q145 10 103 94Q65 108 9 0M-20-10-109 85M20-10 109 85M-20 4-66 70M20 4 66 70M-18 35H18M-23 53H23M-18 71H18"/>
+ <path d="M-21-25-60-49-77-98M21-25 60-49 77-98M-27-5-73 0-109-22M27-5 73 0 109-22M-18 15-53 61-70 126M18 15 53 61 70 126M-10-80-18-99M10-80 18-99"/>
+</g>
+<circle cx="1128" cy="58" r="12" fill="url(#spectrum)"/>
+<path d="M58 27H27V58M1142 303H1173V272" stroke="#1f3b5b" fill="none" opacity=".35"/>
+</svg>
